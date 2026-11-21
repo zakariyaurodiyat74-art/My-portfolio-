@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZARIYATECH | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="#home" class="logo">ZariyaTech</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="menu-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1 class="hero-name">Zakariyau Rodiyat Temitope</h1>
+        <h2 class="hero-title">Frontend Developer</h2>
+        <p class="hero-description">
+          I'm a passionate beginner learning to build clean and modern websites. 
+          I love turning ideas into real projects.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Get In Touch</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            I'm a beginner frontend developer currently focusing on HTML, CSS, and JavaScript. 
+            I enjoy building small but complete websites and improving my skills every day.
+          </p>
+          <p>
+            My goal is to become a professional developer by consistently practicing and 
+            creating real projects. I'm always open to learning and growing.
+          </p>
+          <a href="#" class="btn btn-primary">Download Resume</a>
+        </div>
+        <div class="about-image">
+          <div class="image-placeholder">
+            <!-- Replace with your photo -->
+            <img src="Rodiyat.jpg" alt="ZARIYATECH">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section skills">
+    <div class="container">
+      <h2 class="section-title">Skills & Technologies</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Frontend</h3>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Responsive Design</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Tools</h3>
+          <ul>
+            <li>VS Code</li>
+            <li>Git & GitHub</li>
+            <li>Chrome DevTools</li>
+            <li>Figma (basic)</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Currently Learning</h3>
+          <ul>
+            <li>React</li>
+            <li>Tailwind CSS</li>
+            <li>More JavaScript</li>
+            <li>Better UI Design</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section projects">
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects-grid">
+
+        <!-- Project 1: NoteFlow -->
+        <article class="project-card">
+          <div class="project-image">
+            <div class="project-placeholder" style="background: linear-gradient(135deg, #4f46e5, #7c3aed);">
+              <span>NoteFlow</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>NoteFlow – Product Landing Page</h3>
+            <p>A clean and modern SaaS landing page designed for a fictional note-taking app. Fully responsive with smooth layout.</p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>Responsive</span>
+            </div>
+            <div class="project-links">
+              <a href="noteflow.html" target="_blank">Live Demo</a>
+              <a href="#" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2: Taskly -->
+        <article class="project-card">
+          <div class="project-image">
+            <div class="project-placeholder" style="background: linear-gradient(135deg, #4f46e5, #2563eb);">
+              <span>Taskly</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Taskly – Todo List App</h3>
+            <p>An interactive todo application where users can add, complete, and delete tasks. Data is saved using localStorage.</p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="taskly.html" target="_blank">Live Demo</a>
+              <a href="#" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3: Brew & Bean -->
+        <article class="project-card">
+          <div class="project-image">
+            <div class="project-placeholder" style="background: linear-gradient(135deg, #78350f, #d97706);">
+              <span>Brew & Bean</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Brew & Bean – Cafe Website</h3>
+            <p>A beautiful single-page website for a fictional cafe. Includes hero section, menu, about, and contact information.</p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>Responsive</span>
+            </div>
+            <div class="project-links">
+              <a href="brew-and-bean.html" target="_blank">Live Demo</a>
+              <a href="#" target="_blank">GitHub</a>
+            </div>
+</div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="contact-intro">
+        I'm currently learning and open to opportunities, feedback, or collaboration. Feel free to reach out!
+      </p>
+      <div class="contact-content">
+        <form class="contact-form" action="#" method="POST">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+        <div class="contact-info">
+          <div class="info-item">
+            <h4>Email</h4>
+            <a href="mailtozakariyaurodiyat74@gmail.com">zakariyaurodiyat74@gmail.com</a>
+          </div>
+          <div class="info-item">
+            <h4>Location</h4>
+            <p>Ede Osun State, Nigeria</p>
+          </div>
+          <div class="info-item">
+            <h4>Social</h4>
+  <div class="social-links">
+    <a href="https://github.com/zakariyaurodiyat74-art" target="_blank">GitHub</a>
+    <a href="https://www.linkedin.com/in/zakariyau-rodiyat-90756b420" target="_blank">LinkedIn</a>
+  </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 ZariyaTech. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+      menuToggle.classList.toggle('active');
+    });
+
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+        menuToggle.classList.remove('active');
+      });
+    });
+  </script>
+</body>
+</html>

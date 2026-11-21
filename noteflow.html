@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NoteFlow – Capture Your Ideas</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', system-ui, sans-serif; color: #1e293b; line-height: 1.6; }
+    .container { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
+
+    /* Navbar */
+    nav { padding: 20px 0; border-bottom: 1px solid #e2e8f0; }
+    nav .container { display: flex; justify-content: space-between; align-items: center; }
+    .logo { font-weight: 700; font-size: 1.4rem; color: #4f46e5; }
+    .nav-links a { margin-left: 28px; text-decoration: none; color: #64748b; font-weight: 500; }
+    .nav-links a:hover { color: #4f46e5; }
+    .btn { display: inline-block; padding: 12px 28px; border-radius: 8px; font-weight: 600; text-decoration: none; transition: 0.2s; }
+    .btn-primary { background: #4f46e5; color: white; }
+    .btn-primary:hover { background: #4338ca; }
+    .btn-outline { border: 2px solid #e2e8f0; color: #1e293b; }
+    .btn-outline:hover { border-color: #4f46e5; color: #4f46e5; }
+
+    /* Hero */
+    .hero { padding: 100px 0 80px; text-align: center; }
+    .hero h1 { font-size: clamp(2.4rem, 5vw, 3.5rem); font-weight: 800; margin-bottom: 16px; letter-spacing: -0.03em; }
+    .hero p { font-size: 1.25rem; color: #64748b; max-width: 560px; margin: 0 auto 36px; }
+    .hero-buttons { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+
+    /* Features */
+    .features { padding: 80px 0; background: #f8fafc; }
+    .section-title { text-align: center; font-size: 2rem; margin-bottom: 48px; }
+    .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 32px; }
+    .feature-card { background: white; padding: 32px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05); }
+    .feature-card h3 { margin-bottom: 12px; font-size: 1.2rem; }
+    .feature-card p { color: #64748b; }
+
+    /* CTA */
+    .cta { padding: 80px 0; text-align: center; }
+    .cta h2 { font-size: 2rem; margin-bottom: 16px; }
+    .cta p { color: #64748b; margin-bottom: 32px; }
+
+    footer { padding: 32px 0; text-align: center; color: #94a3b8; font-size: 0.9rem; border-top: 1px solid #e2e8f0; }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="container">
+      <div class="logo">NoteFlow</div>
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#cta">Pricing</a>
+        <a href="#" class="btn btn-primary" style="padding: 8px 20px; margin-left: 20px;">Get Started</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Capture ideas.<br>Stay organized.</h1>
+      <p>NoteFlow helps you write, organize, and find your notes faster than ever before.</p>
+      <div class="hero-buttons">
+        <a href="#" class="btn btn-primary">Start for Free</a>
+        <a href="#features" class="btn btn-outline">See Features</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="features" id="features">
+    <div class="container">
+      <h2 class="section-title">Why NoteFlow?</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <h3>Lightning Fast</h3>
+          <p>Open and search your notes in milliseconds. Built for speed and simplicity.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Beautiful Editor</h3>
+          <p>Write without distraction. Clean interface that stays out of your way.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Sync Everywhere</h3>
+          <p>Your notes stay updated across phone, tablet, and computer automatically.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta" id="cta">
+    <div class="container">
+      <h2>Ready to get organized?</h2>
+      <p>Join thousands of people who use NoteFlow every day.</p>
+      <a href="#" class="btn btn-primary">Create Free Account</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">© 2025 NoteFlow. Built for portfolio practice.</div>
+  </footer>
+</body>
+</html>
